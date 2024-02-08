@@ -1,0 +1,22 @@
+[
+    {
+        "principe" : "Fiabilité",
+        "annonce" : "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements et toutes les informations sont régulièrement vérifiées par nos équipes.",
+        "id" : "p1"
+    },
+    {
+        "principe" : "Respect",
+        "annonce" :  "La bienveillance fait partie des valeurs fondamentales de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+        "id" : "p2"
+    },
+    {
+        "principe" : "Service",
+        "annonce" :  "La bienveillance fait partie des valeurs fondamentales de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme.",
+        "id" : "p3"
+    },
+    {
+        "principe" : "Sécurité",
+        "annonce" :  "La sécurité est la priorité de Kasa, aussi bien pour nos hôtes que nos voyageurs.",
+        "id" : "p4"
+    }
+]

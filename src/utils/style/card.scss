@@ -1,0 +1,22 @@
+.card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(10, 10, 10, 0) 42%, rgba(4, 4, 4, 0.205) 99.99%, rgba(0, 0, 0, 0.5) 100%);
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    background-color: #ff6060;
+    color: white;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 20px;
+    margin: 0;
+    p {
+        width: 90%;
+        text-align: center;
+    }
+}
+.link {
+    text-decoration: none;
+}
