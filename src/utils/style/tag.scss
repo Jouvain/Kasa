@@ -1,0 +1,12 @@
+.tagsIn {
+    display: flex;
+    flex-direction: row;
+    &__tag {
+        background-color: #ff6060;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 10px;
+    }
+}

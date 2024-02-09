@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    margin-bottom: 0;
     img {
         height: 34px;
         width: 34px;
@@ -22,6 +23,13 @@
     width: 80%;
     padding: 10px 20px;
     margin-top: 0;
+    font-family: "Montserrat", sans-serif;
+    ul{
+        list-style-type: none;
+    }
+    li {
+        margin: 5px;
+    }
 }
 
 
