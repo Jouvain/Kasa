@@ -21,12 +21,16 @@ export default function Carrousel ({photoList}) {
         }
         
     }
+    
 
     return(
         <div className="carrousel">
             <img src={photoList[index]} className="carrousel__portrait"/>
-            <img src={arrowLeft} onClick={handleClick} className="carrousel__leftClick"/>
-            <img src={arrowRight} onClick={handleClick} className="carrousel__rightClick"/>
+            
+            
+            {photoList.length>1 && <img src={arrowLeft} onClick={handleClick} className="carrousel__leftClick"/>}
+            {photoList.length>1 && <img src={arrowRight} onClick={handleClick} className="carrousel__rightClick"/>}
+            {photoList.length>1 && <p> {index+1}/{photoList.length} </p> }
         </div>
     )
 }
