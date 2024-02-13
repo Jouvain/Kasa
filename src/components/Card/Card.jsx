@@ -1,4 +1,4 @@
-import "../utils/style/card.scss"
+import "../Card/card.scss"
 import { Link } from "react-router-dom"
 
 

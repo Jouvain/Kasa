@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 
-import "../utils/style/collapser.scss"
-import icon from "../assets/arrow_up.svg"
-import iconAlt from "../assets/arrow_down.svg"
+import "../Collapser/collapser.scss"
+import icon from "../../assets/arrow_up.svg"
+import iconAlt from "../../assets/arrow_down.svg"
 import { useState } from "react"
 
 export default function Collapser ({title, classAdd, contenu, listing}) {

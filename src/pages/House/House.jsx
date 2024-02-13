@@ -4,13 +4,13 @@ import { useLocation } from "react-router-dom"
 
 
 //importation des composants
-import Carrousel from "../components/Carrousel"
-import Tag from "../components/Tag"
-import Collapser from "../components/Collapser"
-import Sidenote from "../components/Sidenote"
+import Carrousel from "../../components/Carrousel/Carrousel"
+import Tag from "../../components/Tag/Tag.jsx" 
+import Collapser from "../../components/Collapser/Collapser"
+import Sidenote from "../../components/Sidenote/Sidenote"
 
 //importation des utilitaires
-import "../utils/style/house.scss"
+import "../House/house.scss"
 
 export default function House () {
     let {state} =  useLocation()

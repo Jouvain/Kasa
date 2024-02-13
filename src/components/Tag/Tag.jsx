@@ -1,4 +1,4 @@
-import "../utils/style/tag.scss"
+import "../Tag/tag.scss"
 
 /* eslint-disable react/prop-types */
 export default function Tag ({tag}) {

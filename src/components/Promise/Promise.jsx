@@ -1,4 +1,4 @@
-import "../utils/style/promise.scss"
+import "../Promise/promise.scss"
 
 /* eslint-disable react/prop-types */
 export default function Promise ({picture, text}) {

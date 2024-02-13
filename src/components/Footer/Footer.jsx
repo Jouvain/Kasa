@@ -3,8 +3,8 @@
 //importation de composants
 
 //importation d'utilitaires
-import LogoBW from "../assets/LOGOBandW.svg"
-import "../utils/style/footer.scss"
+import LogoBW from "../../assets/LOGOBandW.svg"
+import "../Footer/footer.scss"
 
 
 export default function Footer () {

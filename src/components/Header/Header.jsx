@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 //importation de composants
 
 //importation d'utilitaires
-import Logo from "../assets/LOGO.svg"
-import "../utils/style/header.scss"
+import Logo from "../../assets/LOGO.svg"
+import "../Header/header.scss"
 
 export default function Header () {
     return (

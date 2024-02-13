@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 //importation de composants
 
 //importation d'utilitaires
-import picture from "../assets/404.svg"
-import "../utils/style/error.scss"
+import picture from "../../assets/404.svg"
+import "../Error/error.scss"
 
 export default function Error () {
     return (

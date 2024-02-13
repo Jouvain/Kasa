@@ -2,13 +2,13 @@
 
 
 //importation de composants
-import Promise from "../components/Promise"
-import Collapser from "../components/Collapser"
+import Promise from "../../components/Promise/Promise.jsx"
+import Collapser from "../../components/Collapser/Collapser.jsx"
 
 //importation d'utilitaires
-import "../utils/style/about.scss"
-import paysage from "../assets/Image source 2.png"
-import data from "../utils/principes.json"
+import "../About/about.scss"
+import paysage from "../../assets/Image source 2.png"
+import data from "../../utils/principes.json"
 
 
 export default function About () {

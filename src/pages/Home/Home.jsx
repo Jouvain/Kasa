@@ -2,13 +2,13 @@
 
 
 //importation de composants
-import Promise from "../components/Promise"
-import Card from "../components/Card"
+import Promise from "../../components/Promise/Promise"
+import Card from "../../components/Card/Card"
 
 //importation d'utilitaires
-import paysage from "../assets/Image source 1.png"
-import data from "../utils/logements.json"
-import "../utils/style/home.scss"
+import paysage from "../../assets/Image source 1.png"
+import data from "../../utils/logements.json"
+import "../Home/home.scss"
 
 export default function Home () {
     return (

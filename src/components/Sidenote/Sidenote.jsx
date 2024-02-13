@@ -1,5 +1,5 @@
-import "../utils/style/sidenote.scss"
-import Notation from "./Notation"
+import "../Sidenote/sidenote.scss"
+import Notation from "../Notation/Notation"
 
 /* eslint-disable react/prop-types */
 export default function Sidenote ({host, rating, id}) {

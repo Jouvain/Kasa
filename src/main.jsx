@@ -7,10 +7,9 @@ import ReactDOM from 'react-dom/client'
 
 
 
-import Router from './components/Router.jsx'
+import Router from './components/Router/Router.jsx'
 
-//importation des utilitaires
-import "./utils/style/fonts.scss"
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

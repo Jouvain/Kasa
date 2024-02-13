@@ -1,7 +1,7 @@
 import { useState } from "react"
-import arrowLeft from "../assets/arrow_left.svg"
-import arrowRight from "../assets/arrow_right.svg"
-import "../utils/style/carrousel.scss"
+import arrowLeft from "../../assets/arrow_left.svg"
+import arrowRight from "../../assets/arrow_right.svg"
+import "../Carrousel/carrousel.scss"
 
 
 /* eslint-disable react/prop-types */

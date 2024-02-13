@@ -1,5 +1,5 @@
-import activeStar from "../assets/star_active.svg"
-import inactiveStar from "../assets/star_inactive.svg"
+import activeStar from "../../assets/star_active.svg"
+import inactiveStar from "../../assets/star_inactive.svg"
 
 /* eslint-disable react/prop-types */
 export default function Notation ({rating, id}) {
