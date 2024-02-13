@@ -22,7 +22,7 @@ export default function About () {
             <Promise picture={paysage} text={text} />
             <div className="about__collapseBox">
                 {data.map((object) => {
-                    return <Collapser key={object.id} title={object.principe} contenu={object.annonce} classAdd="about__collapser"/>
+                    return <Collapser key={object.id} title={object.principe} contenu={object.annonce} classAdd="large"/>
                 }
                 )}
             </div>

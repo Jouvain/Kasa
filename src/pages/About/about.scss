@@ -1,19 +1,23 @@
+
+
 .about {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
     padding: 50px;
     &__collapseBox {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         width: 100%;
         margin: 30px;
-    }
-    &__collapser {
-        width: 80%;
-        margin: 20px;
+        div {
+            margin-top: 20px;
+        }
+        
+        
     }
 }
+
+

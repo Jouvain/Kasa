@@ -30,8 +30,8 @@ export default function House () {
             
             
             <div className="house__collapseLine">
-                <Collapser title="Description" classAdd="house__collapser" contenu={state.description} />
-                <Collapser title="Équipement" classAdd="house__collapser" contenu={state.equipments} listing={true}/>
+                <Collapser title="Description" classAdd="medium" contenu={state.description} />
+                <Collapser title="Équipement" classAdd="medium" contenu={state.equipments} listing={true}/>
             </div>
            
            
@@ -40,6 +40,3 @@ export default function House () {
     )
 }
 
-// TODO : parcourir tableau des strings Equipments pour <ul> avant passage en prop ?
-// TODO : paramétrer import d'images du Carrousel + fonction flèches
-// paramétrer composant Sidenote (couper en deux sous-compo ?)
