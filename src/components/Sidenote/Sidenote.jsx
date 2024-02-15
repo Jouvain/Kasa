@@ -3,7 +3,7 @@ import Notation from "../Notation/Notation"
 
 /* eslint-disable react/prop-types */
 export default function Sidenote ({host, rating, id}) {
-    console.log(host)
+    
     return (
         <div className="sidenote">
             <div className="sidenote__host">

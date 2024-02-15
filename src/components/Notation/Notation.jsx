@@ -11,12 +11,12 @@ export default function Notation ({rating, id}) {
         notation.push("star")
         i=i+1    
     }
-    console.log(notation)
+    
     while (i < 5) {
         antiNotation.push("antiStar")
         i=i+1
     }
-    console.log(antiNotation)
+    
     return (
         <div>
            { notation.map((star)=> {

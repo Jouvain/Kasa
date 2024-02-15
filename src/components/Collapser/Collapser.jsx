@@ -31,9 +31,10 @@ export default function Collapser ({title, classAdd, contenu, listing}) {
                 <div className={`collapser  ${classAdd}`} onClick={reversingArrow} >
                     <h2> {title} </h2>
                     <img src={arrow} />
+                    
                 </div>
-            
                 <p className= {arrow === iconAlt ? `revealerOn ${classAdd}` : undefined} > {arrow === iconAlt && displayContent } </p>
+                
             </div>
         </>
        
