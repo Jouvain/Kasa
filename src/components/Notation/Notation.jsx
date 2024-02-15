@@ -5,27 +5,24 @@ import inactiveStar from "../../assets/star_inactive.svg"
 export default function Notation ({rating, id}) {
     let note = Number(rating)
     const notation = []
-    const antiNotation = []
     let i = 0
-    while (i < note) {
-        notation.push("star")
-        i=i+1    
-    }
-    
     while (i < 5) {
-        antiNotation.push("antiStar")
+        i<note ? notation.push("star") : notation.push("antiStar") 
         i=i+1
     }
-    
+    let content = notation.map( (element) => {
+        if (element === "star") {
+            return (<img src={activeStar} key={`${notation.indexOf(element)}_${id}`} />)
+        }
+        else {
+            return (<img src={inactiveStar} key={`${notation.indexOf(element)}_${id}`} />)
+        }
+        
+    } )
     return (
         <div>
-           { notation.map((star)=> {
-                return <img src={activeStar} key={`${star}_${id}`} />
-           } )}
-           { antiNotation.map((antiStar)=> {
-                return <img src={inactiveStar} key={`${antiStar}_${id}`} />
-           } )}
-
+           {content}
         </div>
     )
 }
+
