@@ -3,6 +3,9 @@
     flex-direction: column;
     width: 100%;
     clip-path: rect(0 0 100% 100%) ;
+    p {
+        margin-bottom: 0;
+    }
 }
 
 .collapser {
@@ -66,10 +69,10 @@
 }
 .medium {
     max-width: 582px;
-    width: 90%;
+    
 }
 .large {
-    width: 90%;
+    
     max-width: 1023px;
     
 }

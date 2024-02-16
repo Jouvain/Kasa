@@ -17,16 +17,27 @@
         margin-right: auto;
         border-radius: 25px;
         opacity: 0.7;
+        @media(max-width:800px ){
+            height: 150px;
+        }
     }
     p {
         position: absolute;
         top: 30%;
-        left: 35%;
+        left: 5%;
+        right: 5%;
+        text-align: center;
         z-index: 2;
         color: white;
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         font-size: 2rem;
+        @media(max-width:800px){
+            font-size: 1.5rem;
+            top: 20%;
+            left: 5%;
+            text-align: left;
+        }
     }
 }
 

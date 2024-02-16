@@ -13,6 +13,9 @@
     align-items: center;
     padding-bottom: 20px;
     margin: 0;
+    @media(max-width:800px){
+        width: 100%;
+    }
     p {
         
         width: 90%;
@@ -20,7 +23,8 @@
     }
     img {
         object-fit: cover;
-        height: 200px;
+        max-height: 200px;
+        height: 100%;
         width: 100%;
         border-radius: 10px 10px 0 0;
     }
