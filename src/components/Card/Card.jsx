@@ -11,9 +11,14 @@ export default function Card ({title, content}) {
     <article className="card">
         
         <img src={content.cover} />
-        
         <p> {title} </p>
+        
     </article>
     </Link>
  )
 }
+
+{/*
+<p> {title} </p>
+
+*/}

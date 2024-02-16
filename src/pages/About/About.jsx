@@ -15,7 +15,7 @@ export default function About () {
     let text = ""
 
     
-    console.log(data[0].principe)
+    
 
     return (
         <div className="about">
