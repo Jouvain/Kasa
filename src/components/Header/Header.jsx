@@ -1,9 +1,5 @@
-//importation de bibliothèques
+//imports
 import { Link } from "react-router-dom"
-
-//importation de composants
-
-//importation d'utilitaires
 import Logo from "../../assets/LOGO.svg"
 import "../Header/header.scss"
 
@@ -19,7 +15,7 @@ export default function Header () {
     )
 }
 
-//donne classe de base aux "Links" puis ajoute classe underlined au cliqué
+//underline clicked "Link" + remove underline from others
 function underlining(event) {
     const links = document.querySelectorAll(".header__link")
     links.forEach((element) => element.setAttribute("class", "header__link"))

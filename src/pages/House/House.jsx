@@ -1,28 +1,17 @@
-
-//importation des bibliothèques
+//imports
 import { useLocation } from "react-router-dom"
-
-
-
-//importation des composants
 import Carrousel from "../../components/Carrousel/Carrousel"
 import Tag from "../../components/Tag/Tag.jsx" 
 import Collapser from "../../components/Collapser/Collapser"
 import Sidenote from "../../components/Sidenote/Sidenote"
-
-
-
-//importation des utilitaires
 import "../House/house.scss"
 
+//object/content available in stateLocation via comp.Card
+//object/content.properties used for display or Prop
 export default function House () {
     let {state} =  useLocation()
-    //let state = "OUPS"
-    
-    
     
     return (
-        
             <div className="house">
                 <Carrousel photoList={state.pictures} />
                 <div className="house__infotab">
@@ -33,17 +22,11 @@ export default function House () {
                     </div>
                     <Sidenote host={state.host} rating={state.rating} id={state.id}/>
                 </div>
-                
-                
                 <div className="house__collapseLine">
-                    <Collapser title="Description" classAdd="medium" contenu={state.description} />
-                    <Collapser title="Équipement" classAdd="medium" contenu={state.equipments} listing={true}/>
+                    <Collapser title="Description" classAdd="medium" content={state.description} />
+                    <Collapser title="Équipement" classAdd="medium" content={state.equipments} listing={true}/>
                 </div>
-            
-            
-            
             </div>
-        
     )
 }
 

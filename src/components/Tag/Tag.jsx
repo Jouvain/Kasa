@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
+
+//imports
 import "../Tag/tag.scss"
 
-/* eslint-disable react/prop-types */
+//use mapped array "tag" for displaying tags 
 export default function Tag ({tag}) {
     
     return(

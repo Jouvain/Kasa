@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
+
+//imports
 import "../Sidenote/sidenote.scss"
 import Notation from "../Notation/Notation"
 
-/* eslint-disable react/prop-types */
-export default function Sidenote ({host, rating, id}) {
-    
+//display host name and photo + pass needed Props to comp."Notation"
+export default function Sidenote ({host, rating, id}) {    
     return (
         <div className="sidenote">
             <div className="sidenote__host">

@@ -1,10 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-//importation de bibliothèques
+
+//imports
 import { Link } from "react-router-dom"
-
-//importation de composants
-
-//importation d'utilitaires
 import picture from "../../assets/404.svg"
 import "../Error/error.scss"
 

@@ -1,11 +1,6 @@
-//importation de bibliothèques
-
-//importation de composants
-
-//importation d'utilitaires
+//imports
 import LogoBW from "../../assets/LOGOBandW.svg"
 import "../Footer/footer.scss"
-
 
 export default function Footer () {
     return (

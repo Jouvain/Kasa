@@ -1,6 +1,9 @@
+/* eslint-disable react/prop-types */
+
+//imports
 import "../Promise/promise.scss"
 
-/* eslint-disable react/prop-types */
+//display "text" on a banner-like "picture" 
 export default function Promise ({picture, text}) {
     return (
         <div className="promise" >
