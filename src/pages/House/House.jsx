@@ -1,7 +1,7 @@
 
 //importation des bibliothèques
 import { useLocation } from "react-router-dom"
-import { ErrorBoundary} from "react-error-boundary"
+
 
 
 //importation des composants
@@ -9,7 +9,7 @@ import Carrousel from "../../components/Carrousel/Carrousel"
 import Tag from "../../components/Tag/Tag.jsx" 
 import Collapser from "../../components/Collapser/Collapser"
 import Sidenote from "../../components/Sidenote/Sidenote"
-import ErrorBlock from "../../components/ErrorBlock.jsx"
+
 
 
 //importation des utilitaires
@@ -22,7 +22,7 @@ export default function House () {
     
     
     return (
-        <ErrorBoundary FallbackComponent={ErrorBlock} >
+        
             <div className="house">
                 <Carrousel photoList={state.pictures} />
                 <div className="house__infotab">
@@ -43,7 +43,7 @@ export default function House () {
             
             
             </div>
-        </ErrorBoundary>
+        
     )
 }
 

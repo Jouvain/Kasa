@@ -18,7 +18,3 @@ export default function Card ({title, content}) {
  )
 }
 
-{/*
-<p> {title} </p>
-
-*/}

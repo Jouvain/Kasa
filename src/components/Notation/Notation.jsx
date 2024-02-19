@@ -10,12 +10,13 @@ export default function Notation ({rating, id}) {
         i<note ? notation.push("star") : notation.push("antiStar") 
         i=i+1
     }
-    let content = notation.map( (element) => {
+    let content = notation.map( (element, index) => {
+        console.log(index)
         if (element === "star") {
-            return (<img src={activeStar} key={`${notation.indexOf(element)}_${id}`} />)
+            return (<img src={activeStar} key={`${index}_${id}`} />)
         }
         else {
-            return (<img src={inactiveStar} key={`${notation.indexOf(element)}_${id}`} />)
+            return (<img src={inactiveStar} key={`${index}_${id}`} />)
         }
         
     } )
