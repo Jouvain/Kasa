@@ -37,6 +37,7 @@ export default function Collapser ({title, classAdd, content, listing}) {
                     <img src={arrow} />   
                 </div>
                 <p className= {arrow === iconAlt ? `revealerOn ${classAdd}` : undefined} > {arrow === iconAlt && displayContent } </p>
+                
             </div>
         </>
     )

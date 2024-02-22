@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    clip-path: rect(0 0 100% 100%) ;
+    //clip-path: rect(0 0 100% 100%) ;
+    
     p {
         margin-bottom: 0;
     }
@@ -18,7 +19,7 @@
     padding: 10px 20px;
     margin-bottom: 0;
     z-index: 2;
-    
+    cursor: pointer;
     
     img {
         height: 34px;
@@ -34,7 +35,7 @@
 
 @keyframes liftDown {
     0% {
-        transform: translateY(-100%);
+        transform: translateY(-30%);
     }
     100% {
         transform: translateY(0);
@@ -48,19 +49,28 @@
         transform: scaleY(100%);
     }
 }
+@keyframes lapseDown {
+    0% {
+        max-height: 0;
+    }
+    100% {
+        max-height: 200px;
+    }
+}
 .revealerOn {
     background-color: #f6f6f6;
     padding: 10px 20px;
     margin-top: 0;
     font-family: "Montserrat", sans-serif;
     z-index: 0;
+    overflow: hidden; //ajout
     ul{
         list-style-type: none;
     }
     li {
         margin: 5px;
     }
-    animation: liftDown 400ms;
+    animation: lapseDown 400ms;
     
 }
 
